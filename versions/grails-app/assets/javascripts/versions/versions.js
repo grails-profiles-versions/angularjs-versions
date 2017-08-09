@@ -4,6 +4,6 @@
 //= require /versions/index/versions.index
 
 angular.module("versions", [
-    "versions.core",
-    "versions.index"
-]);
+        "versions.core",
+        "versions.index"
+    ]);
