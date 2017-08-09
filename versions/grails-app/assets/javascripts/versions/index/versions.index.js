@@ -6,4 +6,8 @@
 //= require_tree templates
 //= require /angular/ui-bootstrap-tpls
 
-angular.module("versions.index", ["versions.core", 'ui.bootstrap.dropdown']);
+angular.module("versions.index", [
+  "versions.core",
+  "ui.bootstrap.dropdown",
+  "ui.bootstrap.collapse",
+]);
