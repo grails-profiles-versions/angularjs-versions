@@ -44,8 +44,21 @@ pre {
 
 }
 .navbar-default, .navbar-static-top {
-    background-color: #4D8618;
+    background-color: #424649;
     border: 0px;
+}
+.navbar-brand {
+    float: left;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand img {
+    width: 80px;
+    height: 80px;
+
 }
 a.navbar-brand {
     color: white !important;
@@ -59,7 +72,7 @@ a.navbar-brand {
     color: white !important;
 }
 .navbar-nav>li>a:hover {
-    background-color: #db4800 !important;
+    background-color: #feb672 !important;
     color: white !important;
 }
 .navbar-nav>li>a {
@@ -69,12 +82,16 @@ a.navbar-brand {
     background-color: white;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #db4800;
+    background-color: #feb672;
 }
 
 @media (min-width: 768px) {
     .container {
         width: auto;
+    }
+    .navbar-nav > li > a {
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 }
 
@@ -113,7 +130,7 @@ a.navbar-brand {
 
 #band {
     /*grey =#808080*/
-    background: #79B94C  no-repeat 50% 30%;
+    background: #feb672  no-repeat 50% 30%;
     height: 400px;
 }
 
@@ -235,15 +252,15 @@ a.navbar-brand {
 
 @media (max-width: 1010px) {
     .event-logo {
-        height: ;
+        height: 100px;
     }
-
 }
 
 @media (max-width: 690px) {
     .event-logo {
         height: 60px;
-    }}
+    }
+}
 
 @media (max-width: 475px) {
     .event-logo {
@@ -381,12 +398,12 @@ body, html {
 }
 
 a {
-    color: #db4800;
+    color: #feb672;
     text-decoration: underline;
 }
 
 a:hover {
-    color: #db4800;
+    color: #feb672;
     text-decoration: none
 }
 
@@ -413,13 +430,13 @@ h4 {
 h5 {
     font-size: 1.125em;
     font-weight: bold;
-    color: #db4800;
+    color: #feb672;
 }
 
 h6 {
     font-size: 1.08em;
     font-weight: normal;
-    color: #db4800;
+    color: #feb672;
 }
 
 h7 {
@@ -753,14 +770,14 @@ h8 {
 
 #content.page-1 .row article h1 {
     margin: 0;
-    paddnig: 0;
+    padding: 0;
     text-align: left;
     font-size: 26px
 }
 
 #content.page-1 .row article h2 {
     margin: 0;
-    paddnig: 0
+    padding: 0
 }
 
 #content.page-1 .row article h3 {
@@ -899,7 +916,7 @@ html, body, .st-container, .st-pusher, .st-content {
     visibility: hidden;
     width: 300px;
     height: 100%;
-    background: #79B94C;
+    background: #feb672;
     -webkit-transition: all .5s;
     transition: all .5s;
     right: -600px
